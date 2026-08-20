@@ -20,11 +20,11 @@
 
 ## 🧠 Approach
 
-_No approach documented yet._
+Just basic math
 
 ## 💡 Important Concepts
 
-_No concepts documented yet._
+Just basic math
 
 ## ⚡ Notes
 
@@ -37,7 +37,21 @@ _None documented._
 ## 💻 Solution
 
 ```cpp
-// Solution not added yet
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() {
+    int n;
+    cin >> n;
+ 
+    if(n % 2 == 0 && n > 2) {
+        cout << "YES";
+    }
+    else {
+        cout << "NO";
+    }
+    return 0;
+}
 ```
 
 ---
